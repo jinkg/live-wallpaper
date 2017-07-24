@@ -22,8 +22,6 @@ public class AdvanceGLWallpaperService extends GLWallpaperService {
         public AdvanceEngine() {
             super();
             renderer = new AdvanceRenderer(AdvanceGLWallpaperService.this);
-//            renderer = new AdvanceRenderer1();
-//            renderer.setContext(AdvanceGLWallpaperService.this);
             setRenderer(renderer);
             setRenderMode(RENDERMODE_CONTINUOUSLY);
         }
