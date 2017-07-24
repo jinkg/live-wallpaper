@@ -1,4 +1,4 @@
-package com.yalin.wallpaper.demo.wallpaper01;
+package com.yalin.wallpaper.demo.normal;
 
 import android.content.SharedPreferences;
 import android.graphics.Canvas;
@@ -18,7 +18,7 @@ import java.util.List;
  * @since 2017/7/24.
  */
 
-public class WallpaperService01 extends WallpaperService {
+public class NormalWallpaperService extends WallpaperService {
     @Override
     public Engine onCreateEngine() {
         return new MyWallpaperEngine();
@@ -43,7 +43,7 @@ public class WallpaperService01 extends WallpaperService {
 
         public MyWallpaperEngine() {
             SharedPreferences prefs = PreferenceManager
-                    .getDefaultSharedPreferences(WallpaperService01.this);
+                    .getDefaultSharedPreferences(NormalWallpaperService.this);
             maxNumber = Integer
                     .valueOf(prefs.getString("numberOfCircles", "4"));
             touchEnabled = prefs.getBoolean("touch", false);

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">live-wallpaper</string>
+    <string name="wallpaper">live-wallpaper</string>
+    <string name="normal_wallpaper_des">normal wallpaper des</string>
+    <string name="gl_wallpaper_des">gl wallpaper des</string>
+    <string name="advance_gl_wallpaper_des">advance gl wallpaper des</string>
+
+    <string name="normal_wallpaper_custom_settings">普通动态壁纸自定义</string>
+    <string name="normal_wallpaper_select">设置普通动态壁纸作为背景</string>
+    <string name="gl_wallpaper_select">设置GL动态壁纸作为背景</string>
+    <string name="advance_gl_wallpaper_select">设置高级GL动态壁纸作为背景</string>
+</resources>

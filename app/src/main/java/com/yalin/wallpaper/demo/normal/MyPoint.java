@@ -1,4 +1,4 @@
-package com.yalin.wallpaper.demo.wallpaper01;
+package com.yalin.wallpaper.demo.normal;
 
 /**
  * @author jinyalin

@@ -1,27 +1,12 @@
 <resources>
     <string name="app_name">live-wallpaper</string>
-    <string name="wallpaper01">wallpaper01</string>
-    <string name="wallpaper01_des">wallpaper01 des</string>
+    <string name="wallpaper">live-wallpaper</string>
+    <string name="normal_wallpaper_des">normal wallpaper des</string>
+    <string name="gl_wallpaper_des">gl wallpaper des</string>
+    <string name="advance_gl_wallpaper_des">advance gl wallpaper des</string>
 
-    <string name="hello">Hello World!</string>
-    <string name="service_label">GL Wallpaper Test Project</string>
-    <string name="description">An OpenGL live wallpaper</string>
-
-    <string name="nehe_lesson_02_label">GLWS - NeHe Lesson 02</string>
-    <string name="nehe_lesson_02_description">A white squre and triangle</string>
-
-    <string name="nehe_lesson_08_label">GLWS - NeHe Lesson 08</string>
-    <string name="nehe_lesson_08_description">A rotating transparent cube.</string>
-
-    <string name="settings_title">Lesson Eight Wallpaper settings</string>
-    <string-array name="textureitems">
-        <item>None</item>
-        <item>Linear</item>
-        <item>Mipmaped</item>
-    </string-array>
-    <string-array name="textureitems_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
+    <string name="normal_wallpaper_custom_settings">Normal Wallpaper Custom Settings</string>
+    <string name="normal_wallpaper_select">Normal Wallpaper Select</string>
+    <string name="gl_wallpaper_select">GL Wallpaper Select</string>
+    <string name="advance_gl_wallpaper_select">Advance GL Wallpaper Select</string>
 </resources>

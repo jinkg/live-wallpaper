@@ -14,7 +14,7 @@ public class SettingActivity extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.prefs01);
+        addPreferencesFromResource(R.xml.normal_prefs);
 
         // add a validator to the "numberofCircles" preference so that it only
         // accepts numbers

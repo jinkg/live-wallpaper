@@ -22,17 +22,44 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service
-            android:name=".wallpaper01.WallpaperService01"
+            android:name=".normal.NormalWallpaperService"
             android:enabled="true"
-            android:label="@string/wallpaper01"
+            android:label="@string/wallpaper"
             android:permission="android.permission.BIND_WALLPAPER">
             <intent-filter android:priority="1">
                 <action android:name="android.service.wallpaper.WallpaperService" />
             </intent-filter>
             <meta-data
                 android:name="android.service.wallpaper"
-                android:resource="@xml/wallpaper01" />
+                android:resource="@xml/normal_wallpaper" />
+        </service>
+
+        <service
+            android:name=".gl.MyGLWallpaperService"
+            android:enabled="true"
+            android:label="@string/wallpaper"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter android:priority="1">
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/gl_wallpaper" />
+        </service>
+
+        <service
+            android:name=".gl.AdvanceGLWallpaperService"
+            android:enabled="true"
+            android:label="@string/wallpaper"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter android:priority="1">
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/advance_gl_wallpaper" />
         </service>
 
         <activity
